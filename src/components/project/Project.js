@@ -1,6 +1,5 @@
 import "./Project.css"
-import BtnGitHub from "../btnGitHub/BtnGitHub.js";
-const Project = ({title, img}) => {
+const Project = ({title, img, index}) => {
     return (
         <li className="project">
             <a href="./project-page.html">
